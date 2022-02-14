@@ -11,6 +11,7 @@ import (
 	apiserverflag "k8s.io/component-base/cli/flag"
 
 	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit"
+	"github.com/karmada-io/karmada/pkg/version"
 	"github.com/karmada-io/karmada/pkg/version/sharedcommand"
 )
 
@@ -45,7 +46,14 @@ func NewKarmadaCtlCommand(out io.Writer, cmdUse, parentCommand string) *cobra.Co
 	karmadaConfig := NewKarmadaConfig(clientcmd.NewDefaultPathOptions())
 	rootCmd.AddCommand(NewCmdJoin(out, karmadaConfig, parentCommand))
 	rootCmd.AddCommand(NewCmdUnjoin(out, karmadaConfig, parentCommand))
-	rootCmd.AddCommand(sharedcommand.NewCmdVersion(out, parentCommand))
+	ver := sharedcommand.NewCmdVersion(out, parentCommand)
+	// insert additional logic for printing karmada image tags
+	inheritedRun := ver.Run
+	ver.Run = func(cmd *cobra.Command, args []string) {
+		inheritedRun(cmd, args)
+		fmt.Fprintf(out, "%s init images version: %s\n", parentCommand, version.ImageVersion())
+	}
+	rootCmd.AddCommand(ver)
 	rootCmd.AddCommand(NewCmdCordon(out, karmadaConfig, parentCommand))
 	rootCmd.AddCommand(NewCmdUncordon(out, karmadaConfig, parentCommand))
 	rootCmd.AddCommand(NewCmdGet(out, karmadaConfig, parentCommand))

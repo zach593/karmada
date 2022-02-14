@@ -1,7 +1,7 @@
 package helper
 
 import (
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
 )
 
 // IsScheduleResultEqual will check whether two schedule results are equal.

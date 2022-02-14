@@ -10,9 +10,9 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	apiserverflag "k8s.io/component-base/cli/flag"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit"
-	"github.com/karmada-io/karmada/pkg/version"
-	"github.com/karmada-io/karmada/pkg/version/sharedcommand"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit"
+	"github.com/zach593/karmada/pkg/version"
+	"github.com/zach593/karmada/pkg/version/sharedcommand"
 )
 
 var (

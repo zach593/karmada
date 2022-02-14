@@ -1,6 +1,6 @@
 # Resource Propagating
 
-The [PropagationPolicy](https://github.com/karmada-io/karmada/blob/master/pkg/apis/policy/v1alpha1/propagation_types.go#L13) and [ClusterPropagationPolicy](https://github.com/karmada-io/karmada/blob/master/pkg/apis/policy/v1alpha1/propagation_types.go#L292) APIs are provided to propagate resources. For the differences between the two APIs, please see [here](../frequently-asked-questions.md#what-is-the-difference-between-propagationpolicy-and-clusterpropagationpolicy).
+The [PropagationPolicy](https://github.com/zach593/karmada/blob/master/pkg/apis/policy/v1alpha1/propagation_types.go#L13) and [ClusterPropagationPolicy](https://github.com/zach593/karmada/blob/master/pkg/apis/policy/v1alpha1/propagation_types.go#L292) APIs are provided to propagate resources. For the differences between the two APIs, please see [here](../frequently-asked-questions.md#what-is-the-difference-between-propagationpolicy-and-clusterpropagationpolicy).
 
 Here, we use PropagationPolicy as an example to describe how to propagate resources.
 

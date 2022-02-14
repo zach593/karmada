@@ -12,7 +12,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	workv1alpha1 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha1"
+	workv1alpha1 "github.com/zach593/karmada/pkg/apis/work/v1alpha1"
 )
 
 // CreateOrUpdateWork creates a Work object if not exist, or updates if it already exist.

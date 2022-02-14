@@ -1,4 +1,4 @@
-module github.com/karmada-io/karmada
+module github.com/zach593/karmada
 
 go 1.16
 

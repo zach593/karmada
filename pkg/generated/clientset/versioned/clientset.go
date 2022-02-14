@@ -5,11 +5,11 @@ package versioned
 import (
 	"fmt"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/generated/clientset/versioned/typed/cluster/v1alpha1"
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/generated/clientset/versioned/typed/config/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/generated/clientset/versioned/typed/policy/v1alpha1"
-	workv1alpha1 "github.com/karmada-io/karmada/pkg/generated/clientset/versioned/typed/work/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/generated/clientset/versioned/typed/work/v1alpha2"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/generated/clientset/versioned/typed/cluster/v1alpha1"
+	configv1alpha1 "github.com/zach593/karmada/pkg/generated/clientset/versioned/typed/config/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/generated/clientset/versioned/typed/policy/v1alpha1"
+	workv1alpha1 "github.com/zach593/karmada/pkg/generated/clientset/versioned/typed/work/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/generated/clientset/versioned/typed/work/v1alpha2"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

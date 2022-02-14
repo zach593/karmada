@@ -8,8 +8,8 @@ import (
 	"k8s.io/client-go/tools/leaderelection/resourcelock"
 	componentbaseconfig "k8s.io/component-base/config"
 
-	"github.com/karmada-io/karmada/pkg/features"
-	"github.com/karmada-io/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/features"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 const (

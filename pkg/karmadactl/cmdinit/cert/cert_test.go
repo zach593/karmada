@@ -9,7 +9,7 @@ import (
 
 	certutil "k8s.io/client-go/util/cert"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/utils"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/utils"
 )
 
 func TestGenCerts(t *testing.T) {

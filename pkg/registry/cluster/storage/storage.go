@@ -15,11 +15,11 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 
-	clusterapis "github.com/karmada-io/karmada/pkg/apis/cluster"
-	"github.com/karmada-io/karmada/pkg/printers"
-	printersinternal "github.com/karmada-io/karmada/pkg/printers/internalversion"
-	printerstorage "github.com/karmada-io/karmada/pkg/printers/storage"
-	clusterregistry "github.com/karmada-io/karmada/pkg/registry/cluster"
+	clusterapis "github.com/zach593/karmada/pkg/apis/cluster"
+	"github.com/zach593/karmada/pkg/printers"
+	printersinternal "github.com/zach593/karmada/pkg/printers/internalversion"
+	printerstorage "github.com/zach593/karmada/pkg/printers/storage"
+	clusterregistry "github.com/zach593/karmada/pkg/registry/cluster"
 )
 
 // ClusterStorage includes storage for Cluster and for all the subresources.

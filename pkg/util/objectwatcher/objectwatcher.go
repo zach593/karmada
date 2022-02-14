@@ -14,12 +14,12 @@ import (
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	workv1alpha1 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter"
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/restmapper"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	workv1alpha1 "github.com/zach593/karmada/pkg/apis/work/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	"github.com/zach593/karmada/pkg/resourceinterpreter"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/restmapper"
 )
 
 const (
@@ -185,7 +185,7 @@ func (o *objectWatcherImpl) Delete(clusterName string, desireObj *unstructured.U
 	// The reason for this is to fix the exception case that Kubernetes does on Job(batch/v1).
 	// In kubernetes, the Job's default deletion strategy is "Orphan", that will cause the "Pods" created by "Job"
 	// still exist after "Job" has been deleted.
-	// Refer to https://github.com/karmada-io/karmada/issues/969 for more details.
+	// Refer to https://github.com/zach593/karmada/issues/969 for more details.
 	deleteBackground := metav1.DeletePropagationBackground
 	deleteOption := metav1.DeleteOptions{
 		PropagationPolicy: &deleteBackground,

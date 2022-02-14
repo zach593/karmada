@@ -15,16 +15,16 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.APIEnablement":        schema_pkg_apis_cluster_v1alpha1_APIEnablement(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.APIResource":          schema_pkg_apis_cluster_v1alpha1_APIResource(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.Cluster":              schema_pkg_apis_cluster_v1alpha1_Cluster(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ClusterList":          schema_pkg_apis_cluster_v1alpha1_ClusterList(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ClusterProxyOptions":  schema_pkg_apis_cluster_v1alpha1_ClusterProxyOptions(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ClusterSpec":          schema_pkg_apis_cluster_v1alpha1_ClusterSpec(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ClusterStatus":        schema_pkg_apis_cluster_v1alpha1_ClusterStatus(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.LocalSecretReference": schema_pkg_apis_cluster_v1alpha1_LocalSecretReference(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.NodeSummary":          schema_pkg_apis_cluster_v1alpha1_NodeSummary(ref),
-		"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ResourceSummary":      schema_pkg_apis_cluster_v1alpha1_ResourceSummary(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.APIEnablement":        schema_pkg_apis_cluster_v1alpha1_APIEnablement(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.APIResource":          schema_pkg_apis_cluster_v1alpha1_APIResource(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.Cluster":              schema_pkg_apis_cluster_v1alpha1_Cluster(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ClusterList":          schema_pkg_apis_cluster_v1alpha1_ClusterList(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ClusterProxyOptions":  schema_pkg_apis_cluster_v1alpha1_ClusterProxyOptions(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ClusterSpec":          schema_pkg_apis_cluster_v1alpha1_ClusterSpec(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ClusterStatus":        schema_pkg_apis_cluster_v1alpha1_ClusterStatus(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.LocalSecretReference": schema_pkg_apis_cluster_v1alpha1_LocalSecretReference(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.NodeSummary":          schema_pkg_apis_cluster_v1alpha1_NodeSummary(ref),
+		"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ResourceSummary":      schema_pkg_apis_cluster_v1alpha1_ResourceSummary(ref),
 		"k8s.io/api/core/v1.AWSElasticBlockStoreVolumeSource":                          schema_k8sio_api_core_v1_AWSElasticBlockStoreVolumeSource(ref),
 		"k8s.io/api/core/v1.Affinity":                                                  schema_k8sio_api_core_v1_Affinity(ref),
 		"k8s.io/api/core/v1.AttachedVolume":                                            schema_k8sio_api_core_v1_AttachedVolume(ref),
@@ -311,7 +311,7 @@ func schema_pkg_apis_cluster_v1alpha1_APIEnablement(ref common.ReferenceCallback
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.APIResource"),
+										Ref:     ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.APIResource"),
 									},
 								},
 							},
@@ -322,7 +322,7 @@ func schema_pkg_apis_cluster_v1alpha1_APIEnablement(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.APIResource"},
+			"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.APIResource"},
 	}
 }
 
@@ -387,14 +387,14 @@ func schema_pkg_apis_cluster_v1alpha1_Cluster(ref common.ReferenceCallback) comm
 						SchemaProps: spec.SchemaProps{
 							Description: "Spec represents the specification of the desired behavior of member cluster.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ClusterSpec"),
+							Ref:         ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ClusterSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Status represents the status of member cluster.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ClusterStatus"),
+							Ref:         ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ClusterStatus"),
 						},
 					},
 				},
@@ -402,7 +402,7 @@ func schema_pkg_apis_cluster_v1alpha1_Cluster(ref common.ReferenceCallback) comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ClusterSpec", "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ClusterStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ClusterSpec", "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ClusterStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -441,7 +441,7 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterList(ref common.ReferenceCallback) 
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.Cluster"),
+										Ref:     ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.Cluster"),
 									},
 								},
 							},
@@ -452,7 +452,7 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterList(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.Cluster", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.Cluster", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -515,13 +515,13 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterSpec(ref common.ReferenceCallback) 
 					"secretRef": {
 						SchemaProps: spec.SchemaProps{
 							Description: "SecretRef represents the secret contains mandatory credentials to access the member cluster. The secret should hold credentials as follows: - secret.data.token - secret.data.caBundle",
-							Ref:         ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.LocalSecretReference"),
+							Ref:         ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.LocalSecretReference"),
 						},
 					},
 					"impersonatorSecretRef": {
 						SchemaProps: spec.SchemaProps{
 							Description: "ImpersonatorSecretRef represents the secret contains the token of impersonator. The secret should hold credentials as follows: - secret.data.token",
-							Ref:         ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.LocalSecretReference"),
+							Ref:         ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.LocalSecretReference"),
 						},
 					},
 					"insecureSkipTLSVerification": {
@@ -578,7 +578,7 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterSpec(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.LocalSecretReference", "k8s.io/api/core/v1.Taint"},
+			"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.LocalSecretReference", "k8s.io/api/core/v1.Taint"},
 	}
 }
 
@@ -604,7 +604,7 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterStatus(ref common.ReferenceCallback
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.APIEnablement"),
+										Ref:     ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.APIEnablement"),
 									},
 								},
 							},
@@ -627,20 +627,20 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterStatus(ref common.ReferenceCallback
 					"nodeSummary": {
 						SchemaProps: spec.SchemaProps{
 							Description: "NodeSummary represents the summary of nodes status in the member cluster.",
-							Ref:         ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.NodeSummary"),
+							Ref:         ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.NodeSummary"),
 						},
 					},
 					"resourceSummary": {
 						SchemaProps: spec.SchemaProps{
 							Description: "ResourceSummary represents the summary of resources in the member cluster.",
-							Ref:         ref("github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ResourceSummary"),
+							Ref:         ref("github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ResourceSummary"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.APIEnablement", "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.NodeSummary", "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1.ResourceSummary", "k8s.io/apimachinery/pkg/apis/meta/v1.Condition"},
+			"github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.APIEnablement", "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.NodeSummary", "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1.ResourceSummary", "k8s.io/apimachinery/pkg/apis/meta/v1.Condition"},
 	}
 }
 

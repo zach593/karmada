@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/karmada-io/karmada/cmd/aggregated-apiserver/app/options"
-	"github.com/karmada-io/karmada/pkg/version/sharedcommand"
+	"github.com/zach593/karmada/cmd/aggregated-apiserver/app/options"
+	"github.com/zach593/karmada/pkg/version/sharedcommand"
 )
 
 // NewAggregatedApiserverCommand creates a *cobra.Command object with default parameters

@@ -7,10 +7,10 @@ import (
 	eventsv1 "k8s.io/api/events/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	workv1alpha1 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha1"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	workv1alpha1 "github.com/zach593/karmada/pkg/apis/work/v1alpha1"
 )
 
 // SkippedResourceConfig represents the configuration that identifies the API resources should be skipped from propagating.

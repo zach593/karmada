@@ -8,10 +8,10 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	"github.com/karmada-io/karmada/pkg/estimator/pb"
-	"github.com/karmada-io/karmada/pkg/util"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	"github.com/zach593/karmada/pkg/estimator/pb"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 // RegisterSchedulerEstimator will register a SchedulerEstimator.

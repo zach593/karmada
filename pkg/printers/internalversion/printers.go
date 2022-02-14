@@ -7,8 +7,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/duration"
 
-	clusterapis "github.com/karmada-io/karmada/pkg/apis/cluster"
-	"github.com/karmada-io/karmada/pkg/printers"
+	clusterapis "github.com/zach593/karmada/pkg/apis/cluster"
+	"github.com/zach593/karmada/pkg/printers"
 )
 
 // AddHandlers adds print handlers for default Karmada types dealing with internal versions.

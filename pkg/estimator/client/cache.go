@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc"
 	"k8s.io/klog/v2"
 
-	estimatorservice "github.com/karmada-io/karmada/pkg/estimator/service"
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/names"
+	estimatorservice "github.com/zach593/karmada/pkg/estimator/service"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/names"
 )
 
 // SchedulerEstimatorCache is a cache that stores gRPC clients of all the cluster accurate scheduler estimator.

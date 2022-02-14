@@ -13,11 +13,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl"
-	"github.com/karmada-io/karmada/pkg/karmadactl/options"
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/test/e2e/framework"
-	"github.com/karmada-io/karmada/test/helper"
+	"github.com/zach593/karmada/pkg/karmadactl"
+	"github.com/zach593/karmada/pkg/karmadactl/options"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/test/e2e/framework"
+	"github.com/zach593/karmada/test/helper"
 )
 
 var _ = ginkgo.Describe("[namespace auto-provision] namespace auto-provision testing", func() {

@@ -15,10 +15,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/event"
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 
-	workv1alpha1 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/helper"
-	"github.com/karmada-io/karmada/pkg/util/names"
+	workv1alpha1 "github.com/zach593/karmada/pkg/apis/work/v1alpha1"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/helper"
+	"github.com/zach593/karmada/pkg/util/names"
 )
 
 // EndpointSliceControllerName is the controller name that will be used when reporting events.

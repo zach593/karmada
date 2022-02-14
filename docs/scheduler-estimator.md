@@ -6,7 +6,7 @@ Users could divide their replicas of a workload into different clusters in terms
 
 ### Karmada has been installed
 
-We can install Karmada by referring to [quick-start](https://github.com/karmada-io/karmada#quick-start), or directly run `hack/local-up-karmada.sh` script which is also used to run our E2E cases.
+We can install Karmada by referring to [quick-start](https://github.com/zach593/karmada#quick-start), or directly run `hack/local-up-karmada.sh` script which is also used to run our E2E cases.
 
 ### Member cluster component is ready
 

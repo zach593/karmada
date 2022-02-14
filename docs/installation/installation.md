@@ -114,7 +114,7 @@ The configuration file of Karmada will be created to `/etc/karmada/karmada-apise
 #### Offline installation
 
 When installing Karmada, the `kubectl karmada init` will download the APIs(CRD) from the Karmada official release page
-(e.g. `https://github.com/karmada-io/karmada/releases/tag/v0.10.1`) and load images from the official registry by default.
+(e.g. `https://github.com/zach593/karmada/releases/tag/v0.10.1`) and load images from the official registry by default.
 
 If you want to install Karmada offline, maybe you have to specify the APIs tar file as well as the image.
 
@@ -146,7 +146,7 @@ hack/create-cluster.sh host $HOME/.kube/host.config
 
 Install Karmada v1.0.0 by command `kubectl karmada init`:
 ```bash
-kubectl karmada init --crds https://github.com/karmada-io/karmada/releases/download/v1.0.0/crds.tar.gz --kubeconfig=$HOME/.kube/host.config
+kubectl karmada init --crds https://github.com/zach593/karmada/releases/download/v1.0.0/crds.tar.gz --kubeconfig=$HOME/.kube/host.config
 ```
 
 Check installed components:
@@ -163,7 +163,7 @@ kube-controller-manager-85c789dcfc-k89f8       1/1     Running   0          2m10
 ```
 
 ## Install Karmada by Helm Chart Deployment
-Please refer to [installing by Helm](https://github.com/karmada-io/karmada/tree/master/charts).
+Please refer to [installing by Helm](https://github.com/zach593/karmada/tree/master/charts).
 
 ## Install Karmada from source
 

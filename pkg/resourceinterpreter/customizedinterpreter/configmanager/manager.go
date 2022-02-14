@@ -11,9 +11,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog/v2"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/util/helper"
-	"github.com/karmada-io/karmada/pkg/util/informermanager"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	"github.com/zach593/karmada/pkg/util/helper"
+	"github.com/zach593/karmada/pkg/util/informermanager"
 )
 
 var resourceExploringWebhookConfigurationsGVR = schema.GroupVersionResource{

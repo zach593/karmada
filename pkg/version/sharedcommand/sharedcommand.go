@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/karmada-io/karmada/pkg/version"
+	"github.com/zach593/karmada/pkg/version"
 )
 
 var (

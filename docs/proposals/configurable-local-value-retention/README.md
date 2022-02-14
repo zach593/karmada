@@ -134,7 +134,7 @@ Each `LocalValueRetention` customizes one API resource referencing by `APIVersio
 The `Fields` holds a collection of fields that should be retained.
 The `RetentionLua` holds a fragment of [Lua](https://www.lua.org/) script which is used to implement the retention logic.
 
-**Note:** The `Lua` might not be the best choice, another considered approach is [cue](https://github.com/cue-lang/cue/tree/master/doc/tutorial/kubernetes) as mentioned by @pigletfly at [this discussion](https://github.com/karmada-io/karmada/pull/592#issuecomment-895759570),
+**Note:** The `Lua` might not be the best choice, another considered approach is [cue](https://github.com/cue-lang/cue/tree/master/doc/tutorial/kubernetes) as mentioned by @pigletfly at [this discussion](https://github.com/zach593/karmada/pull/592#issuecomment-895759570),
 we have to do some investigation. But we also reserve the possibility that uses more than one script, people can select by themselves.
 
 ### Bundle well-known custom resources

@@ -5,8 +5,8 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
 )
 
 // GeneralEstimator is the default replica estimator.

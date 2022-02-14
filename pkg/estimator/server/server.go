@@ -17,13 +17,13 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog/v2"
 
-	"github.com/karmada-io/karmada/cmd/scheduler-estimator/app/options"
-	"github.com/karmada-io/karmada/pkg/estimator/pb"
-	"github.com/karmada-io/karmada/pkg/estimator/server/metrics"
-	nodeutil "github.com/karmada-io/karmada/pkg/estimator/server/nodes"
-	"github.com/karmada-io/karmada/pkg/estimator/server/replica"
-	estimatorservice "github.com/karmada-io/karmada/pkg/estimator/service"
-	"github.com/karmada-io/karmada/pkg/util"
+	"github.com/zach593/karmada/cmd/scheduler-estimator/app/options"
+	"github.com/zach593/karmada/pkg/estimator/pb"
+	"github.com/zach593/karmada/pkg/estimator/server/metrics"
+	nodeutil "github.com/zach593/karmada/pkg/estimator/server/nodes"
+	"github.com/zach593/karmada/pkg/estimator/server/replica"
+	estimatorservice "github.com/zach593/karmada/pkg/estimator/service"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 const (
@@ -31,7 +31,7 @@ const (
 )
 
 // AccurateSchedulerEstimatorServer is the gRPC server of a cluster accurate scheduler estimator.
-// Please see https://github.com/karmada-io/karmada/pull/580 (#580).
+// Please see https://github.com/zach593/karmada/pull/580 (#580).
 type AccurateSchedulerEstimatorServer struct {
 	port            int
 	clusterName     string

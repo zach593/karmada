@@ -8,8 +8,8 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/helper"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/helper"
 )
 
 // retentionInterpreter is the function that retains values from "observed" object.

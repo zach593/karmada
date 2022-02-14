@@ -28,7 +28,7 @@ if [[ -z "$(which protoc)" || "$(protoc --version)" != "libprotoc 3."* ]]; then
 fi
 
 PACKAGES=(
-  github.com/karmada-io/karmada/pkg/estimator/pb
+  github.com/zach593/karmada/pkg/estimator/pb
 )
 
 APIMACHINERY_PKGS=(

@@ -7,12 +7,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/klog/v2"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter/customizedinterpreter"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter/customizedinterpreter/webhook"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter/defaultinterpreter"
-	"github.com/karmada-io/karmada/pkg/util/informermanager"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	"github.com/zach593/karmada/pkg/resourceinterpreter/customizedinterpreter"
+	"github.com/zach593/karmada/pkg/resourceinterpreter/customizedinterpreter/webhook"
+	"github.com/zach593/karmada/pkg/resourceinterpreter/defaultinterpreter"
+	"github.com/zach593/karmada/pkg/util/informermanager"
 )
 
 // ResourceInterpreter manages both default and customized webhooks to interpret custom resource structure.

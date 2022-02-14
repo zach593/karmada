@@ -4,8 +4,8 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
 )
 
 // RequestAttributes contains the attributes that call webhook.

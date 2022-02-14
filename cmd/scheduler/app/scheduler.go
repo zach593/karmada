@@ -20,11 +20,11 @@ import (
 	"k8s.io/client-go/tools/leaderelection/resourcelock"
 	"k8s.io/klog/v2"
 
-	"github.com/karmada-io/karmada/cmd/scheduler/app/options"
-	karmadaclientset "github.com/karmada-io/karmada/pkg/generated/clientset/versioned"
-	"github.com/karmada-io/karmada/pkg/scheduler"
-	"github.com/karmada-io/karmada/pkg/version"
-	"github.com/karmada-io/karmada/pkg/version/sharedcommand"
+	"github.com/zach593/karmada/cmd/scheduler/app/options"
+	karmadaclientset "github.com/zach593/karmada/pkg/generated/clientset/versioned"
+	"github.com/zach593/karmada/pkg/scheduler"
+	"github.com/zach593/karmada/pkg/version"
+	"github.com/zach593/karmada/pkg/version/sharedcommand"
 )
 
 // NewSchedulerCommand creates a *cobra.Command object with default parameters

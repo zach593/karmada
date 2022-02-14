@@ -6,7 +6,7 @@ import (
 
 	"gomodules.xyz/jsonpatch/v2"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
 )
 
 // Errored creates a new Response for error-handling a request.

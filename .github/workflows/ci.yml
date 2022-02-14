@@ -32,12 +32,12 @@ jobs:
       GOPATH: ${{ github.workspace }}
     defaults:
       run:
-        working-directory: ${{ env.GOPATH }}/src/github.com/karmada-io/karmada
+        working-directory: ${{ env.GOPATH }}/src/github.com/zach593/karmada
     steps:
       - name: checkout code
         uses: actions/checkout@v2
         with:
-          path: ${{ env.GOPATH }}/src/github.com/karmada-io/karmada
+          path: ${{ env.GOPATH }}/src/github.com/zach593/karmada
       - name: install Go
         uses: actions/setup-go@v2
         with:

@@ -14,7 +14,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	mcsv1alpha1 "sigs.k8s.io/mcs-api/pkg/apis/v1alpha1"
 
-	"github.com/karmada-io/karmada/pkg/util/names"
+	"github.com/zach593/karmada/pkg/util/names"
 )
 
 // ServiceImportControllerName is the controller name that will be used when reporting events.

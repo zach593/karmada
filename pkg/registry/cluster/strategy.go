@@ -13,8 +13,8 @@ import (
 	"k8s.io/apiserver/pkg/storage/names"
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 
-	clusterapis "github.com/karmada-io/karmada/pkg/apis/cluster"
-	"github.com/karmada-io/karmada/pkg/apis/cluster/validation"
+	clusterapis "github.com/zach593/karmada/pkg/apis/cluster"
+	"github.com/zach593/karmada/pkg/apis/cluster/validation"
 )
 
 // NewStrategy creates and returns a ClusterStrategy instance.

@@ -146,9 +146,9 @@ webhooks:
 You can config more than one webhook in a `ResourceInterpreterWebhookConfiguration`, each webhook
 serves at least one operation.
 
-[1]: https://github.com/karmada-io/karmada/tree/master/docs/proposals/resource-interpreter-webhook
-[2]: https://github.com/karmada-io/karmada/blob/master/pkg/apis/config/v1alpha1/resourceinterpreterwebhook_types.go#L71-L108
-[3]: https://github.com/karmada-io/karmada/issues/new?assignees=&labels=kind%2Ffeature&template=enhancement.md
-[4]: https://github.com/karmada-io/karmada/tree/master/examples/customresourceinterpreter
-[5]: https://github.com/karmada-io/karmada/blob/master/pkg/apis/config/v1alpha1/resourceinterpreterwebhook_types.go#L16
-[6]: https://github.com/karmada-io/karmada/blob/master/examples/customresourceinterpreter/webhook-configuration.yaml
+[1]: https://github.com/zach593/karmada/tree/master/docs/proposals/resource-interpreter-webhook
+[2]: https://github.com/zach593/karmada/blob/master/pkg/apis/config/v1alpha1/resourceinterpreterwebhook_types.go#L71-L108
+[3]: https://github.com/zach593/karmada/issues/new?assignees=&labels=kind%2Ffeature&template=enhancement.md
+[4]: https://github.com/zach593/karmada/tree/master/examples/customresourceinterpreter
+[5]: https://github.com/zach593/karmada/blob/master/pkg/apis/config/v1alpha1/resourceinterpreterwebhook_types.go#L16
+[6]: https://github.com/zach593/karmada/blob/master/examples/customresourceinterpreter/webhook-configuration.yaml

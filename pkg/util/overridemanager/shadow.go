@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"sort"
 
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
 )
 
 // OverridePolicyShadow is the condensed version of a OverridePolicy or ClusterOverridePolicy.

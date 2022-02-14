@@ -3,8 +3,8 @@ package cache
 import (
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	"github.com/karmada-io/karmada/pkg/scheduler/framework"
-	"github.com/karmada-io/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/scheduler/framework"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 // Snapshot is a snapshot of cache ClusterInfo. The scheduler takes a

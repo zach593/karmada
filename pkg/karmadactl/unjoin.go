@@ -16,10 +16,10 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/klog/v2"
 
-	karmadaclientset "github.com/karmada-io/karmada/pkg/generated/clientset/versioned"
-	"github.com/karmada-io/karmada/pkg/karmadactl/options"
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/names"
+	karmadaclientset "github.com/zach593/karmada/pkg/generated/clientset/versioned"
+	"github.com/zach593/karmada/pkg/karmadactl/options"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/names"
 )
 
 var (

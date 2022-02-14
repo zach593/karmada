@@ -5,11 +5,11 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	workv1alpha1 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha1"
-	v1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
+	v1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	workv1alpha1 "github.com/zach593/karmada/pkg/apis/work/v1alpha1"
+	v1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

@@ -20,15 +20,15 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	workv1alpha1 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/helper"
-	"github.com/karmada-io/karmada/pkg/util/informermanager"
-	"github.com/karmada-io/karmada/pkg/util/informermanager/keys"
-	"github.com/karmada-io/karmada/pkg/util/names"
-	"github.com/karmada-io/karmada/pkg/util/objectwatcher"
-	"github.com/karmada-io/karmada/pkg/util/restmapper"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	workv1alpha1 "github.com/zach593/karmada/pkg/apis/work/v1alpha1"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/helper"
+	"github.com/zach593/karmada/pkg/util/informermanager"
+	"github.com/zach593/karmada/pkg/util/informermanager/keys"
+	"github.com/zach593/karmada/pkg/util/names"
+	"github.com/zach593/karmada/pkg/util/objectwatcher"
+	"github.com/zach593/karmada/pkg/util/restmapper"
 )
 
 // WorkStatusControllerName is the controller name that will be used when reporting events.

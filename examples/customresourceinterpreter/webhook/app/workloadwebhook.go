@@ -8,9 +8,9 @@ import (
 
 	"k8s.io/klog/v2"
 
-	workloadv1alpha1 "github.com/karmada-io/karmada/examples/customresourceinterpreter/apis/workload/v1alpha1"
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/webhook/interpreter"
+	workloadv1alpha1 "github.com/zach593/karmada/examples/customresourceinterpreter/apis/workload/v1alpha1"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	"github.com/zach593/karmada/pkg/webhook/interpreter"
 )
 
 // Check if our workloadInterpreter implements necessary interface

@@ -8,7 +8,7 @@ This document uses an example to demonstrate how to use the `Submariner` to conn
 
 ### Install karmada control plane
 
-Following the steps [Install karmada control plane](https://github.com/karmada-io/karmada#install-karmada-control-plane) in Quick Start, you can get a Karmada. 
+Following the steps [Install karmada control plane](https://github.com/zach593/karmada#install-karmada-control-plane) in Quick Start, you can get a Karmada. 
 
 ### Join member cluster
 
@@ -37,7 +37,7 @@ Export `KUBECONFIG` and switch to `karmada apiserver`:
 Then, install `karmadactl` command and join the member cluster:
 
 ```
-# go install github.com/karmada-io/karmada/cmd/karmadactl
+# go install github.com/zach593/karmada/cmd/karmadactl
 
 # karmadactl join cluster1 --cluster-kubeconfig=$HOME/.kube/cluster1.config
 ```
@@ -82,4 +82,4 @@ subctl join --kubeconfig /root/.kube/cluster2.config broker-info.subm --natt=fal
 
 ## Connectivity test
 
-Please refer to the [Multi-cluster Service Discovery](https://github.com/karmada-io/karmada/blob/master/docs/multi-cluster-service.md).
+Please refer to the [Multi-cluster Service Discovery](https://github.com/zach593/karmada/blob/master/docs/multi-cluster-service.md).

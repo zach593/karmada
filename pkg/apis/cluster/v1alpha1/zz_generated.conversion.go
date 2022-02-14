@@ -8,7 +8,7 @@ import (
 	url "net/url"
 	unsafe "unsafe"
 
-	cluster "github.com/karmada-io/karmada/pkg/apis/cluster"
+	cluster "github.com/zach593/karmada/pkg/apis/cluster"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	conversion "k8s.io/apimachinery/pkg/conversion"

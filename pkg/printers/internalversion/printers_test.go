@@ -7,8 +7,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/diff"
 
-	clusterapis "github.com/karmada-io/karmada/pkg/apis/cluster"
-	"github.com/karmada-io/karmada/pkg/printers"
+	clusterapis "github.com/zach593/karmada/pkg/apis/cluster"
+	"github.com/zach593/karmada/pkg/printers"
 )
 
 func TestPrintCluster(t *testing.T) {

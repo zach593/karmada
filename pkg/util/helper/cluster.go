@@ -1,7 +1,7 @@
 package helper
 
 import (
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
 )
 
 // IsAPIEnabled checks if target API (or CRD) referencing by groupVersion and kind has been installed.

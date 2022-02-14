@@ -21,10 +21,10 @@ import (
 	"k8s.io/cli-runtime/pkg/resource"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	karmadaclientset "github.com/karmada-io/karmada/pkg/generated/clientset/versioned"
-	"github.com/karmada-io/karmada/pkg/generated/clientset/versioned/scheme"
-	"github.com/karmada-io/karmada/pkg/karmadactl/options"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	karmadaclientset "github.com/zach593/karmada/pkg/generated/clientset/versioned"
+	"github.com/zach593/karmada/pkg/generated/clientset/versioned/scheme"
+	"github.com/zach593/karmada/pkg/karmadactl/options"
 )
 
 // Following parseTaints(),validateTaintEffect(),etc. are directly lifted from the Kubernetes codebase.

@@ -27,16 +27,16 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter"
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/helper"
-	"github.com/karmada-io/karmada/pkg/util/informermanager"
-	"github.com/karmada-io/karmada/pkg/util/informermanager/keys"
-	"github.com/karmada-io/karmada/pkg/util/names"
-	"github.com/karmada-io/karmada/pkg/util/restmapper"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	"github.com/zach593/karmada/pkg/resourceinterpreter"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/helper"
+	"github.com/zach593/karmada/pkg/util/informermanager"
+	"github.com/zach593/karmada/pkg/util/informermanager/keys"
+	"github.com/zach593/karmada/pkg/util/names"
+	"github.com/zach593/karmada/pkg/util/restmapper"
 )
 
 // ResourceDetector is a resource watcher which watches all resources and reconcile the events.

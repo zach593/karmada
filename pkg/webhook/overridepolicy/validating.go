@@ -7,8 +7,8 @@ import (
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/util/validation"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	"github.com/zach593/karmada/pkg/util/validation"
 )
 
 // ValidatingAdmission validates OverridePolicy object when creating/updating/deleting.

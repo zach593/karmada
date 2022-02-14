@@ -10,8 +10,8 @@ import (
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	workv1alpha1 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter/defaultinterpreter/prune"
+	workv1alpha1 "github.com/zach593/karmada/pkg/apis/work/v1alpha1"
+	"github.com/zach593/karmada/pkg/resourceinterpreter/defaultinterpreter/prune"
 )
 
 // MutatingAdmission mutates API request if necessary.

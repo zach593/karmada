@@ -8,8 +8,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog/v2"
 
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/util"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 const (

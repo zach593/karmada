@@ -7,7 +7,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/rand"
 
-	hashutil "github.com/karmada-io/karmada/pkg/util/hash"
+	hashutil "github.com/zach593/karmada/pkg/util/hash"
 )
 
 func TestGenerateExecutionSpaceName(t *testing.T) {

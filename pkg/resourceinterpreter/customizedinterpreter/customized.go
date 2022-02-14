@@ -15,12 +15,12 @@ import (
 	"k8s.io/klog/v2"
 	utiltrace "k8s.io/utils/trace"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter/customizedinterpreter/configmanager"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter/customizedinterpreter/webhook"
-	"github.com/karmada-io/karmada/pkg/util/informermanager"
-	interpreterutil "github.com/karmada-io/karmada/pkg/util/interpreter"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	"github.com/zach593/karmada/pkg/resourceinterpreter/customizedinterpreter/configmanager"
+	"github.com/zach593/karmada/pkg/resourceinterpreter/customizedinterpreter/webhook"
+	"github.com/zach593/karmada/pkg/util/informermanager"
+	interpreterutil "github.com/zach593/karmada/pkg/util/interpreter"
 )
 
 // CustomizedInterpreter interpret custom resource with webhook configuration.

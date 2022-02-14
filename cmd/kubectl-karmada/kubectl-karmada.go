@@ -5,7 +5,7 @@ import (
 
 	"k8s.io/component-base/logs"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl"
+	"github.com/zach593/karmada/pkg/karmadactl"
 )
 
 func main() {

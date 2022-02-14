@@ -7,7 +7,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/karmada-io/karmada/pkg/util/resourcehelper"
+	"github.com/zach593/karmada/pkg/util/resourcehelper"
 )
 
 // Resource is a collection of compute resource.

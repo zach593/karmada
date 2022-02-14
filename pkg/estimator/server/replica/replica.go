@@ -3,7 +3,7 @@ package replica
 import (
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/karmada-io/karmada/pkg/estimator/server/nodes"
+	"github.com/zach593/karmada/pkg/estimator/server/nodes"
 )
 
 // NodeMaxAvailableReplica calculates max available replicas of a node, based on

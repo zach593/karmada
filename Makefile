@@ -25,11 +25,11 @@ ifeq ($(IMAGE_PULL_VERSION), "")
     IMAGE_PULL_VERSION="latest"
 endif
 
-LDFLAGS := "-X github.com/karmada-io/karmada/pkg/version.gitVersion=$(GIT_VERSION) \
-                      -X github.com/karmada-io/karmada/pkg/version.gitCommit=$(GIT_COMMIT_HASH) \
-                      -X github.com/karmada-io/karmada/pkg/version.gitTreeState=$(GIT_TREESTATE) \
-                      -X github.com/karmada-io/karmada/pkg/version.buildDate=$(BUILDDATE) \
-                      -X github.com/karmada-io/karmada/pkg/version.imageVersion=$(IMAGE_PULL_VERSION)"
+LDFLAGS := "-X github.com/zach593/karmada/pkg/version.gitVersion=$(GIT_VERSION) \
+                      -X github.com/zach593/karmada/pkg/version.gitCommit=$(GIT_COMMIT_HASH) \
+                      -X github.com/zach593/karmada/pkg/version.gitTreeState=$(GIT_TREESTATE) \
+                      -X github.com/zach593/karmada/pkg/version.buildDate=$(BUILDDATE) \
+                      -X github.com/zach593/karmada/pkg/version.imageVersion=$(IMAGE_PULL_VERSION)"
 
 # Images management
 REGISTRY_REGION?="ap-southeast-1"

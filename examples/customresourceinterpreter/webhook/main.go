@@ -7,7 +7,7 @@ import (
 	apiserver "k8s.io/apiserver/pkg/server"
 	"k8s.io/component-base/logs"
 
-	"github.com/karmada-io/karmada/examples/customresourceinterpreter/webhook/app"
+	"github.com/zach593/karmada/examples/customresourceinterpreter/webhook/app"
 )
 
 func main() {

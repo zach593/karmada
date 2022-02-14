@@ -1,7 +1,7 @@
 package framework
 
 import (
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
 )
 
 // ClusterInfo is cluster level aggregated information.

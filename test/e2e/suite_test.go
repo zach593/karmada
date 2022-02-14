@@ -22,12 +22,12 @@ import (
 	"sigs.k8s.io/kind/pkg/cluster"
 	"sigs.k8s.io/kind/pkg/exec"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	karmada "github.com/karmada-io/karmada/pkg/generated/clientset/versioned"
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/gclient"
-	"github.com/karmada-io/karmada/test/e2e/framework"
-	"github.com/karmada-io/karmada/test/helper"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	karmada "github.com/zach593/karmada/pkg/generated/clientset/versioned"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/gclient"
+	"github.com/zach593/karmada/test/e2e/framework"
+	"github.com/zach593/karmada/test/helper"
 )
 
 const (

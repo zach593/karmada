@@ -10,9 +10,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/karmada-io/karmada/cmd/scheduler-estimator/app/options"
-	"github.com/karmada-io/karmada/pkg/estimator/pb"
-	testhelper "github.com/karmada-io/karmada/test/helper"
+	"github.com/zach593/karmada/cmd/scheduler-estimator/app/options"
+	"github.com/zach593/karmada/pkg/estimator/pb"
+	testhelper "github.com/zach593/karmada/test/helper"
 )
 
 func TestAccurateSchedulerEstimatorServer_MaxAvailableReplicas(t *testing.T) {

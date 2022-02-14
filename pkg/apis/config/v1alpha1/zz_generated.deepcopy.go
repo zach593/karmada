@@ -5,7 +5,7 @@
 package v1alpha1
 
 import (
-	v1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
+	v1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 )
 

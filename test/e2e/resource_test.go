@@ -10,9 +10,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog/v2"
 
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	"github.com/karmada-io/karmada/test/e2e/framework"
-	"github.com/karmada-io/karmada/test/helper"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	"github.com/zach593/karmada/test/e2e/framework"
+	"github.com/zach593/karmada/test/helper"
 )
 
 var _ = ginkgo.Describe("[resource-status collection] resource status collection testing", func() {

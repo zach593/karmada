@@ -22,14 +22,14 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	karmadaclientset "github.com/karmada-io/karmada/pkg/generated/clientset/versioned"
-	"github.com/karmada-io/karmada/pkg/karmadactl/options"
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter/defaultinterpreter/prune"
-	"github.com/karmada-io/karmada/pkg/util/gclient"
-	"github.com/karmada-io/karmada/pkg/util/restmapper"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	karmadaclientset "github.com/zach593/karmada/pkg/generated/clientset/versioned"
+	"github.com/zach593/karmada/pkg/karmadactl/options"
+	"github.com/zach593/karmada/pkg/resourceinterpreter/defaultinterpreter/prune"
+	"github.com/zach593/karmada/pkg/util/gclient"
+	"github.com/zach593/karmada/pkg/util/restmapper"
 )
 
 var (

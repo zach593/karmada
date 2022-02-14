@@ -10,7 +10,7 @@ spec:
     Kubernetes-native APIs and providing advanced scheduling capabilities,
     Karmada enables truly open, multi-cloud Kubernetes.
     This cli tools controls a federation of Karmada clusters.
-  homepage: https://github.com/karmada-io/karmada
+  homepage: https://github.com/zach593/karmada
   platforms:
   - bin: kubectl-karmada
     files:
@@ -22,7 +22,7 @@ spec:
       matchLabels:
         arch: arm64
         os: linux
-    {{addURIAndSha "https://github.com/karmada-io/karmada/releases/download/{{ .TagName }}/kubectl-karmada-linux-arm64.tgz" .TagName }}
+    {{addURIAndSha "https://github.com/zach593/karmada/releases/download/{{ .TagName }}/kubectl-karmada-linux-arm64.tgz" .TagName }}
   - bin: kubectl-karmada
     files:
     - from: kubectl-karmada
@@ -33,7 +33,7 @@ spec:
       matchLabels:
         arch: arm64
         os: darwin
-    {{addURIAndSha "https://github.com/karmada-io/karmada/releases/download/{{ .TagName }}/kubectl-karmada-darwin-arm64.tgz" .TagName }}
+    {{addURIAndSha "https://github.com/zach593/karmada/releases/download/{{ .TagName }}/kubectl-karmada-darwin-arm64.tgz" .TagName }}
   - bin: kubectl-karmada
     files:
     - from: kubectl-karmada
@@ -44,7 +44,7 @@ spec:
       matchLabels:
         arch: amd64
         os: linux
-    {{addURIAndSha "https://github.com/karmada-io/karmada/releases/download/{{ .TagName }}/kubectl-karmada-linux-amd64.tgz" .TagName }}
+    {{addURIAndSha "https://github.com/zach593/karmada/releases/download/{{ .TagName }}/kubectl-karmada-linux-amd64.tgz" .TagName }}
   - bin: kubectl-karmada
     files:
     - from: kubectl-karmada
@@ -55,6 +55,6 @@ spec:
       matchLabels:
         arch: amd64
         os: darwin
-    {{addURIAndSha "https://github.com/karmada-io/karmada/releases/download/{{ .TagName }}/kubectl-karmada-darwin-amd64.tgz" .TagName }}
+    {{addURIAndSha "https://github.com/zach593/karmada/releases/download/{{ .TagName }}/kubectl-karmada-darwin-amd64.tgz" .TagName }}
   shortDescription: Manage clusters with Karmada federation.
   version: {{ .TagName }}

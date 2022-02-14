@@ -21,14 +21,14 @@ import (
 	"k8s.io/utils/pointer"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	"github.com/karmada-io/karmada/pkg/util"
-	utilhelper "github.com/karmada-io/karmada/pkg/util/helper"
-	"github.com/karmada-io/karmada/pkg/util/names"
-	"github.com/karmada-io/karmada/test/e2e/framework"
-	"github.com/karmada-io/karmada/test/helper"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	"github.com/zach593/karmada/pkg/util"
+	utilhelper "github.com/zach593/karmada/pkg/util/helper"
+	"github.com/zach593/karmada/pkg/util/names"
+	"github.com/zach593/karmada/test/e2e/framework"
+	"github.com/zach593/karmada/test/helper"
 )
 
 // BasicPropagation focus on basic propagation functionality testing.

@@ -10,7 +10,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog/v2"
 
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
 )
 
 // ParsingJobStatus generates new status of given 'AggregatedStatusItem'.

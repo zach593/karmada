@@ -12,10 +12,10 @@ import (
 	controllerruntime "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 
-	"github.com/karmada-io/karmada/examples/customresourceinterpreter/webhook/app/options"
-	"github.com/karmada-io/karmada/pkg/util/gclient"
-	"github.com/karmada-io/karmada/pkg/version/sharedcommand"
-	"github.com/karmada-io/karmada/pkg/webhook/interpreter"
+	"github.com/zach593/karmada/examples/customresourceinterpreter/webhook/app/options"
+	"github.com/zach593/karmada/pkg/util/gclient"
+	"github.com/zach593/karmada/pkg/version/sharedcommand"
+	"github.com/zach593/karmada/pkg/webhook/interpreter"
 )
 
 // NewWebhookCommand creates a *cobra.Command object with default parameters

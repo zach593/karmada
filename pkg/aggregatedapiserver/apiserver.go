@@ -11,9 +11,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/klog/v2"
 
-	clusterapis "github.com/karmada-io/karmada/pkg/apis/cluster"
-	clusterinstall "github.com/karmada-io/karmada/pkg/apis/cluster/install"
-	clusterstorage "github.com/karmada-io/karmada/pkg/registry/cluster/storage"
+	clusterapis "github.com/zach593/karmada/pkg/apis/cluster"
+	clusterinstall "github.com/zach593/karmada/pkg/apis/cluster/install"
+	clusterstorage "github.com/zach593/karmada/pkg/registry/cluster/storage"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	webhookutil "k8s.io/apiserver/pkg/util/webhook"
 	"k8s.io/client-go/rest"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
 )
 
 // WebhookAccessor provides a common interface to get webhook configuration.

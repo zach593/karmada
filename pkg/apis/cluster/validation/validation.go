@@ -9,7 +9,7 @@ import (
 	kubevalidation "k8s.io/apimachinery/pkg/util/validation"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	api "github.com/karmada-io/karmada/pkg/apis/cluster"
+	api "github.com/zach593/karmada/pkg/apis/cluster"
 )
 
 const clusterNameMaxLength int = 48

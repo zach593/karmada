@@ -3,8 +3,8 @@
 package policy
 
 import (
-	internalinterfaces "github.com/karmada-io/karmada/pkg/generated/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/karmada-io/karmada/pkg/generated/informers/externalversions/policy/v1alpha1"
+	internalinterfaces "github.com/zach593/karmada/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/zach593/karmada/pkg/generated/informers/externalversions/policy/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

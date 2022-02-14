@@ -80,7 +80,7 @@ Now we can create a total quota for business A (business representative) on karm
 1. If a customer create a pod in member cluster itself, karmada is not able to perceive them, and then KarmadaQuota will not limit them too. It reverts the usage of single cluster.
 
 2. If a customer use karmada to propagate a controller which can create pods in the member clusters, as the quota webhook can not check these pods's resources, these pod will be created in the member clusters lead to a customer may use resources more than the quota limit. There are currently no mitigation measures yet, please try to avoid this usage, and continue to pay attention to the karmada community.
-See [discuss about this situation](https://github.com/karmada-io/karmada/pull/632).
+See [discuss about this situation](https://github.com/zach593/karmada/pull/632).
 
 ## Design Details
 

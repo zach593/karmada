@@ -18,7 +18,7 @@ import (
 	"k8s.io/apiserver/pkg/registry/rest"
 	"k8s.io/client-go/kubernetes"
 
-	clusterapis "github.com/karmada-io/karmada/pkg/apis/cluster"
+	clusterapis "github.com/zach593/karmada/pkg/apis/cluster"
 )
 
 // ProxyREST implements the proxy subresource for a Cluster.

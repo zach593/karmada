@@ -14,12 +14,12 @@ For installation instructions see [installing kubectl](https://kubernetes.io/doc
 
 ## Download from the release
 
-Karmada provides `kubectl-karmada` plug-in download service since v0.9.0. You can choose proper plug-in version which fits your operator system form [karmada release](https://github.com/karmada-io/karmada/releases).
+Karmada provides `kubectl-karmada` plug-in download service since v0.9.0. You can choose proper plug-in version which fits your operator system form [karmada release](https://github.com/zach593/karmada/releases).
 
 Take v0.9.0 that working with linux-amd64 os as an example:
 
 ```bash
-wget https://github.com/karmada-io/karmada/releases/download/v0.9.0/kubectl-karmada-linux-amd64.tar.gz
+wget https://github.com/zach593/karmada/releases/download/v0.9.0/kubectl-karmada-linux-amd64.tar.gz
 
 tar -zxf kubectl-karmada-linux-amd64.tar.gz
 ```

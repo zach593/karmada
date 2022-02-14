@@ -1,6 +1,6 @@
 package detector
 
-import policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
+import policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
 
 // GetHigherPriorityPropagationPolicy compare two PropagationPolicies with some priority comparison logic
 func GetHigherPriorityPropagationPolicy(a, b *policyv1alpha1.PropagationPolicy) *policyv1alpha1.PropagationPolicy {

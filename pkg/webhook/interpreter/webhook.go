@@ -6,7 +6,7 @@ import (
 
 	"k8s.io/klog/v2"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
 )
 
 // Request defines the input for an interpreter handler.

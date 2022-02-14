@@ -5,7 +5,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/karmada-io/karmada/pkg/apis/cluster/validation"
+	"github.com/zach593/karmada/pkg/apis/cluster/validation"
 )
 
 // Validate checks Options and return a slice of found errs.

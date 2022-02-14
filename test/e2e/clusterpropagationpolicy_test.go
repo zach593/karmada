@@ -7,9 +7,9 @@ import (
 	apiextensionsv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	"k8s.io/apimachinery/pkg/util/rand"
 
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	"github.com/karmada-io/karmada/test/e2e/framework"
-	testhelper "github.com/karmada-io/karmada/test/helper"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	"github.com/zach593/karmada/test/e2e/framework"
+	testhelper "github.com/zach593/karmada/test/helper"
 )
 
 var _ = ginkgo.Describe("[BasicClusterPropagation] basic cluster propagation testing", func() {

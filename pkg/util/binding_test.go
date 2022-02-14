@@ -3,8 +3,8 @@ package util
 import (
 	"testing"
 
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	testhelper "github.com/karmada-io/karmada/test/helper"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	testhelper "github.com/zach593/karmada/test/helper"
 )
 
 const (

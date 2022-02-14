@@ -17,7 +17,7 @@ import (
 	apiserver "k8s.io/apiserver/pkg/server"
 	"k8s.io/component-base/logs"
 
-	"github.com/karmada-io/karmada/cmd/controller-manager/app"
+	"github.com/zach593/karmada/cmd/controller-manager/app"
 )
 
 func main() {

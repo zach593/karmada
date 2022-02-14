@@ -21,11 +21,11 @@ Scheduling in Karmada is the process of binding `ResourceBindings` to target clu
 - New clusters are added to clusters.
 - Some nodes of a cluster failed and the cluster do not have enough resource to accommodate their pods.
 
-This KEP proposes a new component, Descheduler, which has a similar behavior with [Descheduler for Kubernetes](https://github.com/kubernetes-sigs/descheduler), based on its policy, finds some replicas that can be moved and evicts them from a cluster. Please note, in current implementation, descheduler does not reschedule evicted replicas but relies on the default karmada-scheduler for that. After evicting part of replicas, karmada-scheduler will start a [ScaleSchedule](https://github.com/karmada-io/karmada/blob/e6efe45d8974028ef30cf5f394126f768def9bd5/pkg/scheduler/scheduler.go#L51).
+This KEP proposes a new component, Descheduler, which has a similar behavior with [Descheduler for Kubernetes](https://github.com/kubernetes-sigs/descheduler), based on its policy, finds some replicas that can be moved and evicts them from a cluster. Please note, in current implementation, descheduler does not reschedule evicted replicas but relies on the default karmada-scheduler for that. After evicting part of replicas, karmada-scheduler will start a [ScaleSchedule](https://github.com/zach593/karmada/blob/e6efe45d8974028ef30cf5f394126f768def9bd5/pkg/scheduler/scheduler.go#L51).
 
 ## Motivation
 
-Now scheduler only selects clusters and assigns replicas based on the current state of Karmada control-plane and member clusters. But as the state changes over time, the scheduling result may not be optimal. Descheduler helps evict some replicas and trigger a [ScaleSchedule](https://github.com/karmada-io/karmada/blob/e6efe45d8974028ef30cf5f394126f768def9bd5/pkg/scheduler/scheduler.go#L51) action of karmada-scheduler.
+Now scheduler only selects clusters and assigns replicas based on the current state of Karmada control-plane and member clusters. But as the state changes over time, the scheduling result may not be optimal. Descheduler helps evict some replicas and trigger a [ScaleSchedule](https://github.com/zach593/karmada/blob/e6efe45d8974028ef30cf5f394126f768def9bd5/pkg/scheduler/scheduler.go#L51) action of karmada-scheduler.
 
 ### Goals
 
@@ -73,7 +73,7 @@ Here is the descheduler workflow.
 
 - Descheduler: Start and load the strategy file.
 - Descheduler: Watch `ResourceBinding` and `Cluster`.
-- Descheduler: Establish connections with all [scheduler-estimators](https://github.com/karmada-io/karmada/pull/580).
+- Descheduler: Establish connections with all [scheduler-estimators](https://github.com/zach593/karmada/pull/580).
 - Descheduler: Run regularly in a fixed interval.
   - List all `ResourceBindings`.
   - Find the non-desired ones, i.e., whose desired replicas are less than ready replicas, and then request scheduler-estimator to get the replicas that need to be evicted.

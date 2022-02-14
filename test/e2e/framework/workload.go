@@ -14,8 +14,8 @@ import (
 	"k8s.io/client-go/dynamic"
 	"k8s.io/klog/v2"
 
-	workloadv1alpha1 "github.com/karmada-io/karmada/examples/customresourceinterpreter/apis/workload/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/util/helper"
+	workloadv1alpha1 "github.com/zach593/karmada/examples/customresourceinterpreter/apis/workload/v1alpha1"
+	"github.com/zach593/karmada/pkg/util/helper"
 )
 
 var workloadGVR = workloadv1alpha1.SchemeGroupVersion.WithResource("workloads")

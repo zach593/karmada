@@ -41,7 +41,7 @@ We will help you to contribute in different areas like filing issues, developing
 getting your work reviewed and merged.
 
 If you have questions about the development process,
-feel free to [file an issue](https://github.com/karmada-io/karmada/issues/new/choose).
+feel free to [file an issue](https://github.com/zach593/karmada/issues/new/choose).
 
 ## Find something to work on
 
@@ -53,9 +53,9 @@ Here is how you get started.
 
 There are [multiple repositories](https://github.com/karmada-io/) within the Karmada organization.
 Each repository has beginner-friendly issues that provide a good first issue.
-For example, [karmada-io/karmada](https://github.com/karmada-io/karmada) has
-[help wanted](https://github.com/karmada-io/karmada/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and
-[good first issue](https://github.com/karmada-io/karmada/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+For example, [zach593/karmada](https://github.com/zach593/karmada) has
+[help wanted](https://github.com/zach593/karmada/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and
+[good first issue](https://github.com/zach593/karmada/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 labels for issues that should not need deep knowledge of the system.
 We can help new contributors who wish to work on such issues.
 
@@ -71,7 +71,7 @@ When you are willing to take on an issue, just reply on the issue. The maintaine
 While we encourage everyone to contribute code, it is also appreciated when someone reports an issue.
 Issues should be filed under the appropriate Karmada sub-repository.
 
-*Example:* a Karmada issue should be opened to [karmada-io/karmada](https://github.com/karmada-io/karmada/issues).
+*Example:* a Karmada issue should be opened to [zach593/karmada](https://github.com/zach593/karmada/issues).
 
 Please follow the prompted submission guidelines while opening an issue.
 
@@ -84,7 +84,7 @@ This is a rough outline of what a contributor's workflow looks like:
 - Create a topic branch from where to base the contribution. This is usually master.
 - Make commits of logical units.
 - Push changes in a topic branch to a personal fork of the repository.
-- Submit a pull request to [karmada-io/karmada](https://github.com/karmada-io/karmada).
+- Submit a pull request to [zach593/karmada](https://github.com/zach593/karmada).
 
 ## Creating Pull Requests
 

@@ -11,7 +11,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/klog/v2"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/utils"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/utils"
 )
 
 var (

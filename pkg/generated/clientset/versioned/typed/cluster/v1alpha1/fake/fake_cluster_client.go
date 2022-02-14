@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1alpha1 "github.com/karmada-io/karmada/pkg/generated/clientset/versioned/typed/cluster/v1alpha1"
+	v1alpha1 "github.com/zach593/karmada/pkg/generated/clientset/versioned/typed/cluster/v1alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

@@ -3,10 +3,10 @@
 ![Karmada-logo](docs/images/Karmada-logo-horizontal-color.png)
 
 
-![build](https://github.com/karmada-io/karmada/actions/workflows/ci.yml/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/karmada-io/karmada)](https://goreportcard.com/report/github.com/karmada-io/karmada)
-[![LICENSE](https://img.shields.io/github/license/karmada-io/karmada.svg)](/LICENSE)
-[![Releases](https://img.shields.io/github/release/karmada-io/karmada/all.svg)](https://github.com/karmada-io/karmada/releases)
+![build](https://github.com/zach593/karmada/actions/workflows/ci.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zach593/karmada)](https://goreportcard.com/report/github.com/zach593/karmada)
+[![LICENSE](https://img.shields.io/github/license/zach593/karmada.svg)](/LICENSE)
+[![Releases](https://img.shields.io/github/release/zach593/karmada/all.svg)](https://github.com/zach593/karmada/releases)
 [![Slack](https://img.shields.io/badge/slack-join-brightgreen)](https://join.slack.com/t/karmada-io/shared_invite/zt-omhy1wfa-LmAkCLfpDMnBjVXp3_U~0w)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5301/badge)](https://bestpractices.coreinfrastructure.org/projects/5301)
 
@@ -106,7 +106,7 @@ This guide will cover:
 
 #### 1. Clone this repo to your machine:
 ```
-git clone https://github.com/karmada-io/karmada
+git clone https://github.com/zach593/karmada
 ```
 
 #### 2. Change to karmada directory:

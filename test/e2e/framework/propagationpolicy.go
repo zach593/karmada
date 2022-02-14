@@ -8,8 +8,8 @@ import (
 	"github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	karmada "github.com/karmada-io/karmada/pkg/generated/clientset/versioned"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	karmada "github.com/zach593/karmada/pkg/generated/clientset/versioned"
 )
 
 // CreatePropagationPolicy create PropagationPolicy with karmada client.

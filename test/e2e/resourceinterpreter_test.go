@@ -13,11 +13,11 @@ import (
 	"k8s.io/klog/v2"
 	"k8s.io/utils/pointer"
 
-	workloadv1alpha1 "github.com/karmada-io/karmada/examples/customresourceinterpreter/apis/workload/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	"github.com/karmada-io/karmada/pkg/util/names"
-	"github.com/karmada-io/karmada/test/e2e/framework"
-	testhelper "github.com/karmada-io/karmada/test/helper"
+	workloadv1alpha1 "github.com/zach593/karmada/examples/customresourceinterpreter/apis/workload/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	"github.com/zach593/karmada/pkg/util/names"
+	"github.com/zach593/karmada/test/e2e/framework"
+	testhelper "github.com/zach593/karmada/test/helper"
 )
 
 var _ = ginkgo.Describe("Resource interpreter webhook testing", func() {

@@ -3,7 +3,7 @@ package configuration
 import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	configv1alpha1 "github.com/karmada-io/karmada/pkg/apis/config/v1alpha1"
+	configv1alpha1 "github.com/zach593/karmada/pkg/apis/config/v1alpha1"
 )
 
 func hasWildcard(slice []string) bool {

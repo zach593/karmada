@@ -9,8 +9,8 @@ import (
 	schedcorev1 "k8s.io/component-helpers/scheduling/corev1"
 	"k8s.io/component-helpers/scheduling/corev1/nodeaffinity"
 
-	"github.com/karmada-io/karmada/pkg/estimator/pb"
-	"github.com/karmada-io/karmada/pkg/util/helper"
+	"github.com/zach593/karmada/pkg/estimator/pb"
+	"github.com/zach593/karmada/pkg/util/helper"
 )
 
 // ListNodesByNodeClaim returns all nodes that match the node claim.

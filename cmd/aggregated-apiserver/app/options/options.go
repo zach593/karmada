@@ -18,11 +18,11 @@ import (
 	"k8s.io/client-go/kubernetes"
 	netutils "k8s.io/utils/net"
 
-	"github.com/karmada-io/karmada/pkg/aggregatedapiserver"
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	clientset "github.com/karmada-io/karmada/pkg/generated/clientset/versioned"
-	informers "github.com/karmada-io/karmada/pkg/generated/informers/externalversions"
-	generatedopenapi "github.com/karmada-io/karmada/pkg/generated/openapi"
+	"github.com/zach593/karmada/pkg/aggregatedapiserver"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	clientset "github.com/zach593/karmada/pkg/generated/clientset/versioned"
+	informers "github.com/zach593/karmada/pkg/generated/informers/externalversions"
+	generatedopenapi "github.com/zach593/karmada/pkg/generated/openapi"
 )
 
 const defaultEtcdPathPrefix = "/registry"

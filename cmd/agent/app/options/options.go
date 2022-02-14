@@ -10,7 +10,7 @@ import (
 	"k8s.io/client-go/tools/leaderelection/resourcelock"
 	componentbaseconfig "k8s.io/component-base/config"
 
-	"github.com/karmada-io/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 // DefaultKarmadaClusterNamespace defines the default namespace where the member cluster secrets are stored.

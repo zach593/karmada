@@ -14,16 +14,16 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/conversion"
 
-	"github.com/karmada-io/karmada/cmd/webhook/app/options"
-	"github.com/karmada-io/karmada/pkg/util/gclient"
-	"github.com/karmada-io/karmada/pkg/version"
-	"github.com/karmada-io/karmada/pkg/version/sharedcommand"
-	"github.com/karmada-io/karmada/pkg/webhook/clusteroverridepolicy"
-	"github.com/karmada-io/karmada/pkg/webhook/clusterpropagationpolicy"
-	"github.com/karmada-io/karmada/pkg/webhook/configuration"
-	"github.com/karmada-io/karmada/pkg/webhook/overridepolicy"
-	"github.com/karmada-io/karmada/pkg/webhook/propagationpolicy"
-	"github.com/karmada-io/karmada/pkg/webhook/work"
+	"github.com/zach593/karmada/cmd/webhook/app/options"
+	"github.com/zach593/karmada/pkg/util/gclient"
+	"github.com/zach593/karmada/pkg/version"
+	"github.com/zach593/karmada/pkg/version/sharedcommand"
+	"github.com/zach593/karmada/pkg/webhook/clusteroverridepolicy"
+	"github.com/zach593/karmada/pkg/webhook/clusterpropagationpolicy"
+	"github.com/zach593/karmada/pkg/webhook/configuration"
+	"github.com/zach593/karmada/pkg/webhook/overridepolicy"
+	"github.com/zach593/karmada/pkg/webhook/propagationpolicy"
+	"github.com/zach593/karmada/pkg/webhook/work"
 )
 
 // NewWebhookCommand creates a *cobra.Command object with default parameters

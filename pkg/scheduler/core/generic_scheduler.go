@@ -8,14 +8,14 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog/v2"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	workv1alpha2 "github.com/karmada-io/karmada/pkg/apis/work/v1alpha2"
-	"github.com/karmada-io/karmada/pkg/scheduler/cache"
-	"github.com/karmada-io/karmada/pkg/scheduler/framework"
-	"github.com/karmada-io/karmada/pkg/scheduler/framework/runtime"
-	"github.com/karmada-io/karmada/pkg/scheduler/metrics"
-	"github.com/karmada-io/karmada/pkg/util"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	workv1alpha2 "github.com/zach593/karmada/pkg/apis/work/v1alpha2"
+	"github.com/zach593/karmada/pkg/scheduler/cache"
+	"github.com/zach593/karmada/pkg/scheduler/framework"
+	"github.com/zach593/karmada/pkg/scheduler/framework/runtime"
+	"github.com/zach593/karmada/pkg/scheduler/metrics"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 // ScheduleAlgorithm is the interface that should be implemented to schedule a resource to the target clusters.

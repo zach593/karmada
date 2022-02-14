@@ -3,7 +3,7 @@
 package v1alpha2
 
 import (
-	internalinterfaces "github.com/karmada-io/karmada/pkg/generated/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/zach593/karmada/pkg/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

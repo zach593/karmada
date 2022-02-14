@@ -10,7 +10,7 @@ Follow this guide to install the Istio control plane on `karmada-host` (the prim
 
 ### Install karmada control plane
 
-Following the steps [Install karmada control plane](https://github.com/karmada-io/karmada#install-karmada-control-plane) in Quick Start, you can get a Karmada. 
+Following the steps [Install karmada control plane](https://github.com/zach593/karmada#install-karmada-control-plane) in Quick Start, you can get a Karmada. 
 
 ## Deploy Istio
 

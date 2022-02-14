@@ -7,7 +7,7 @@ import (
 	context "context"
 	fmt "fmt"
 	proto "github.com/gogo/protobuf/proto"
-	pb "github.com/karmada-io/karmada/pkg/estimator/pb"
+	pb "github.com/zach593/karmada/pkg/estimator/pb"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

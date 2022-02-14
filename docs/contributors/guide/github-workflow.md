@@ -13,7 +13,7 @@ description: |
 
 ### 1 Fork in the cloud
 
-1. Visit https://github.com/karmada-io/karmada
+1. Visit https://github.com/zach593/karmada
 2. Click `Fork` button (top right) to establish a cloud-based fork.
 
 ### 2 Clone fork to local storage
@@ -51,8 +51,8 @@ git clone https://github.com/$user/karmada.git
 # or: git clone git@github.com:$user/karmada.git
 
 cd $working_dir/karmada
-git remote add upstream https://github.com/karmada-io/karmada.git
-# or: git remote add upstream git@github.com:karmada-io/karmada.git
+git remote add upstream https://github.com/zach593/karmada.git
+# or: git remote add upstream git@github.com:zach593/karmada.git
 
 # Never push to upstream master
 git remote set-url --push upstream no_push

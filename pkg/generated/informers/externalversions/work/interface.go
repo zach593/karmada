@@ -3,9 +3,9 @@
 package work
 
 import (
-	internalinterfaces "github.com/karmada-io/karmada/pkg/generated/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/karmada-io/karmada/pkg/generated/informers/externalversions/work/v1alpha1"
-	v1alpha2 "github.com/karmada-io/karmada/pkg/generated/informers/externalversions/work/v1alpha2"
+	internalinterfaces "github.com/zach593/karmada/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/zach593/karmada/pkg/generated/informers/externalversions/work/v1alpha1"
+	v1alpha2 "github.com/zach593/karmada/pkg/generated/informers/externalversions/work/v1alpha2"
 )
 
 // Interface provides access to each of this group's versions.

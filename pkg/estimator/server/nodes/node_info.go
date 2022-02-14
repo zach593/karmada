@@ -5,7 +5,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/karmada-io/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 // NodeInfo is the wrapper of a node and its resource.

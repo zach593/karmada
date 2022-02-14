@@ -108,7 +108,7 @@ export VERSION="latest"
 export REGISTRY="swr.ap-southeast-1.myhuaweicloud.com/karmada"
 make images GOOS="linux" --directory="${REPO_ROOT}"
 
-GO111MODULE=on go install "github.com/karmada-io/karmada/cmd/karmadactl"
+GO111MODULE=on go install "github.com/zach593/karmada/cmd/karmadactl"
 GOPATH=$(go env GOPATH | awk -F ':' '{print $1}')
 KARMADACTL_BIN="${GOPATH}/bin/karmadactl"
 

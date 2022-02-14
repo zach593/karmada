@@ -15,10 +15,10 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog/v2"
 
-	"github.com/karmada-io/karmada/cmd/scheduler-estimator/app/options"
-	"github.com/karmada-io/karmada/pkg/estimator/server"
-	"github.com/karmada-io/karmada/pkg/version"
-	"github.com/karmada-io/karmada/pkg/version/sharedcommand"
+	"github.com/zach593/karmada/cmd/scheduler-estimator/app/options"
+	"github.com/zach593/karmada/pkg/estimator/server"
+	"github.com/zach593/karmada/pkg/version"
+	"github.com/zach593/karmada/pkg/version/sharedcommand"
 )
 
 // NewSchedulerEstimatorCommand creates a *cobra.Command object with default parameters

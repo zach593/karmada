@@ -21,9 +21,9 @@ import (
 	"k8s.io/klog/v2"
 	"k8s.io/utils/pointer"
 
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	"github.com/karmada-io/karmada/test/e2e/framework"
-	testhelper "github.com/karmada-io/karmada/test/helper"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	"github.com/zach593/karmada/test/e2e/framework"
+	testhelper "github.com/zach593/karmada/test/helper"
 )
 
 // BasicPropagation focus on basic propagation functionality testing.

@@ -1,10 +1,10 @@
 package plugins
 
 import (
-	"github.com/karmada-io/karmada/pkg/scheduler/framework"
-	"github.com/karmada-io/karmada/pkg/scheduler/framework/plugins/apiinstalled"
-	"github.com/karmada-io/karmada/pkg/scheduler/framework/plugins/clusteraffinity"
-	"github.com/karmada-io/karmada/pkg/scheduler/framework/plugins/tainttoleration"
+	"github.com/zach593/karmada/pkg/scheduler/framework"
+	"github.com/zach593/karmada/pkg/scheduler/framework/plugins/apiinstalled"
+	"github.com/zach593/karmada/pkg/scheduler/framework/plugins/clusteraffinity"
+	"github.com/zach593/karmada/pkg/scheduler/framework/plugins/tainttoleration"
 )
 
 // NewPlugins builds all the scheduling plugins.

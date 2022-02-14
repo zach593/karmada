@@ -7,7 +7,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/karmada-io/karmada/pkg/apis/cluster"
+	api "github.com/zach593/karmada/pkg/apis/cluster"
 )
 
 func TestValidateCluster(t *testing.T) {

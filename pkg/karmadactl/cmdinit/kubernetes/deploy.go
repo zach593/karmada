@@ -18,10 +18,10 @@ import (
 	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/klog/v2"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/cert"
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/karmada"
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/options"
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/utils"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/cert"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/karmada"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/options"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/utils"
 )
 
 var certList = []string{
@@ -293,7 +293,7 @@ func (i *CommandInitOption) initKarmadaComponent() error {
 
 	deploymentClient := i.KubeClientSet.AppsV1().Deployments(i.Namespace)
 	// Create karmada-kube-controller-manager
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/deploy/kube-controller-manager.yaml
+	// https://github.com/zach593/karmada/blob/master/artifacts/deploy/kube-controller-manager.yaml
 	klog.Info("create karmada kube controller manager Deployment")
 	if err := i.CreateService(i.kubeControllerManagerService()); err != nil {
 		klog.Exitln(err)
@@ -306,7 +306,7 @@ func (i *CommandInitOption) initKarmadaComponent() error {
 	}
 
 	// Create karmada-scheduler
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/deploy/karmada-scheduler.yaml
+	// https://github.com/zach593/karmada/blob/master/artifacts/deploy/karmada-scheduler.yaml
 	klog.Info("create karmada scheduler Deployment")
 	if _, err := deploymentClient.Create(context.TODO(), i.makeKarmadaSchedulerDeployment(), metav1.CreateOptions{}); err != nil {
 		klog.Warning(err)
@@ -316,7 +316,7 @@ func (i *CommandInitOption) initKarmadaComponent() error {
 	}
 
 	// Create karmada-controller-manager
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/deploy/controller-manager.yaml
+	// https://github.com/zach593/karmada/blob/master/artifacts/deploy/controller-manager.yaml
 	klog.Info("create karmada controller manager Deployment")
 	if _, err := deploymentClient.Create(context.TODO(), i.makeKarmadaControllerManagerDeployment(), metav1.CreateOptions{}); err != nil {
 		klog.Warning(err)
@@ -326,7 +326,7 @@ func (i *CommandInitOption) initKarmadaComponent() error {
 	}
 
 	// Create karmada-webhook
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/deploy/karmada-webhook.yaml
+	// https://github.com/zach593/karmada/blob/master/artifacts/deploy/karmada-webhook.yaml
 	klog.Info("create karmada webhook Deployment")
 	if err := i.CreateService(i.karmadaWebhookService()); err != nil {
 		klog.Exitln(err)
@@ -338,7 +338,7 @@ func (i *CommandInitOption) initKarmadaComponent() error {
 		klog.Warning(err)
 	}
 	// Create karmada-aggregated-apiserver
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/deploy/karmada-aggregated-apiserver.yaml
+	// https://github.com/zach593/karmada/blob/master/artifacts/deploy/karmada-aggregated-apiserver.yaml
 	klog.Info("create karmada aggregated apiserver Deployment")
 	if err := i.CreateService(i.karmadaAggregatedAPIServerService()); err != nil {
 		klog.Exitln(err)

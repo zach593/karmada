@@ -3,7 +3,7 @@ package options
 import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/karmada-io/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 // Validate checks Options and return a slice of found errs.

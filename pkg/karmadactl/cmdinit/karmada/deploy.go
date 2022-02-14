@@ -21,8 +21,8 @@ import (
 	apiregistrationv1 "k8s.io/kube-aggregator/pkg/apis/apiregistration/v1"
 	"sigs.k8s.io/yaml"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/options"
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/utils"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/options"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/utils"
 )
 
 const namespace = "karmada-system"
@@ -78,7 +78,7 @@ func InitKarmadaResources(dir, caBase64 string) error {
 	}
 
 	// create webhook configuration
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/deploy/webhook-configuration.yaml
+	// https://github.com/zach593/karmada/blob/master/artifacts/deploy/webhook-configuration.yaml
 	klog.Info("Crate MutatingWebhookConfiguration mutating-config.")
 	if err = createMutatingWebhookConfiguration(clientSet, mutatingConfig(caBase64)); err != nil {
 		klog.Exitln(err)
@@ -163,7 +163,7 @@ func getName(str, start, end string) string {
 }
 
 func initAPIService(clientSet *kubernetes.Clientset, restConfig *rest.Config) error {
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/deploy/apiservice.yaml
+	// https://github.com/zach593/karmada/blob/master/artifacts/deploy/apiservice.yaml
 	aaService := &corev1.Service{
 		TypeMeta: metav1.TypeMeta{
 			APIVersion: "v1",

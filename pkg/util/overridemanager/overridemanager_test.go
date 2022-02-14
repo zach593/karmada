@@ -8,10 +8,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	clusterv1alpha1 "github.com/karmada-io/karmada/pkg/apis/cluster/v1alpha1"
-	policyv1alpha1 "github.com/karmada-io/karmada/pkg/apis/policy/v1alpha1"
-	utilhelper "github.com/karmada-io/karmada/pkg/util/helper"
-	"github.com/karmada-io/karmada/test/helper"
+	clusterv1alpha1 "github.com/zach593/karmada/pkg/apis/cluster/v1alpha1"
+	policyv1alpha1 "github.com/zach593/karmada/pkg/apis/policy/v1alpha1"
+	utilhelper "github.com/zach593/karmada/pkg/util/helper"
+	"github.com/zach593/karmada/test/helper"
 )
 
 func TestGetMatchingOverridePolicies(t *testing.T) {

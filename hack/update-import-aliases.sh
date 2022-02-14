@@ -30,5 +30,5 @@ IFS="|" read -r -a array <<< "${INCLUDE_PATH}"
 for var in "${array[@]}"
 do
    echo "Sorting importing in file" "${var}"
-   goimports -local "github.com/karmada-io/karmada" -w "${var}"
+   goimports -local "github.com/zach593/karmada" -w "${var}"
 done

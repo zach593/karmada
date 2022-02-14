@@ -6,7 +6,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto" // auto-registry collectors in default registry
 
-	utilmetrics "github.com/karmada-io/karmada/pkg/util/metrics"
+	utilmetrics "github.com/zach593/karmada/pkg/util/metrics"
 )
 
 // SchedulerEstimatorSubsystem - subsystem name used by scheduler estimator

@@ -7,10 +7,10 @@ import (
 	"k8s.io/klog/v2"
 	controllerruntime "sigs.k8s.io/controller-runtime"
 
-	"github.com/karmada-io/karmada/pkg/resourceinterpreter"
-	"github.com/karmada-io/karmada/pkg/util/informermanager"
-	"github.com/karmada-io/karmada/pkg/util/objectwatcher"
-	"github.com/karmada-io/karmada/pkg/util/overridemanager"
+	"github.com/zach593/karmada/pkg/resourceinterpreter"
+	"github.com/zach593/karmada/pkg/util/informermanager"
+	"github.com/zach593/karmada/pkg/util/objectwatcher"
+	"github.com/zach593/karmada/pkg/util/overridemanager"
 )
 
 // Options defines all the parameters required by our controllers.

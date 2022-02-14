@@ -6,7 +6,7 @@ import (
 	apiserver "k8s.io/apiserver/pkg/server"
 	"k8s.io/component-base/logs"
 
-	"github.com/karmada-io/karmada/cmd/aggregated-apiserver/app"
+	"github.com/zach593/karmada/cmd/aggregated-apiserver/app"
 )
 
 func main() {

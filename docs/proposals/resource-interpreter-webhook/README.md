@@ -429,4 +429,4 @@ configuration would be a little complex to users.
 
 
 [1]: https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/
-[2]: https://github.com/karmada-io/karmada/tree/master/docs/proposals/configurable-local-value-retention
+[2]: https://github.com/zach593/karmada/tree/master/docs/proposals/configurable-local-value-retention

@@ -13,10 +13,10 @@ import (
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/karmada-io/karmada/pkg/util"
-	"github.com/karmada-io/karmada/pkg/util/informermanager"
-	"github.com/karmada-io/karmada/pkg/util/informermanager/keys"
-	"github.com/karmada-io/karmada/pkg/util/restmapper"
+	"github.com/zach593/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util/informermanager"
+	"github.com/zach593/karmada/pkg/util/informermanager/keys"
+	"github.com/zach593/karmada/pkg/util/restmapper"
 )
 
 type clusterDynamicClientSetFunc func(clusterName string, client client.Client) (*util.DynamicClusterClient, error)

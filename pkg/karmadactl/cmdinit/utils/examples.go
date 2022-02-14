@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/agent
+	// https://github.com/zach593/karmada/blob/master/artifacts/agent
 	karmadaAgent = `---
 apiVersion: v1
 kind: Namespace
@@ -142,7 +142,7 @@ func GenExamples(path, parentCommand string) {
 		klog.Warning(err)
 	}
 
-	// https://github.com/karmada-io/karmada/blob/master/artifacts/deploy/karmada-scheduler-estimator.yaml
+	// https://github.com/zach593/karmada/blob/master/artifacts/deploy/karmada-scheduler-estimator.yaml
 	if err := BytesToFile(path, "karmada-scheduler-estimator.yaml", []byte(estimator)); err != nil {
 		klog.Warning(err)
 	}

@@ -1,8 +1,8 @@
 # Aggregated Kubernetes API Endpoint
 
-The newly introduced [karmada-aggregated-apiserver](https://github.com/karmada-io/karmada/blob/master/cmd/aggregated-apiserver/main.go) component aggregates all registered clusters and allows users to access member clusters through Karmada by the proxy endpoint,
+The newly introduced [karmada-aggregated-apiserver](https://github.com/zach593/karmada/blob/master/cmd/aggregated-apiserver/main.go) component aggregates all registered clusters and allows users to access member clusters through Karmada by the proxy endpoint,
 
-For detailed discussion topic, see [here](https://github.com/karmada-io/karmada/discussions/1077).
+For detailed discussion topic, see [here](https://github.com/zach593/karmada/discussions/1077).
 
 Here's a quick start.
 

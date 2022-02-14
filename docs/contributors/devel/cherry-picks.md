@@ -1,7 +1,7 @@
 # Overview
 
 This document explains how cherry picks are managed on release branches within
-the `karmada-io/karmada` repository.
+the `zach593/karmada` repository.
 A common use case for this task is backporting PRs from master to release
 branches.
 
@@ -17,11 +17,11 @@ branches.
 ## Prerequisites
 
 - A pull request merged against the `master` branch.
-- The release branch exists (example: [`release-1.0`](https://github.com/karmada-io/karmada/tree/release-1.0))
+- The release branch exists (example: [`release-1.0`](https://github.com/zach593/karmada/tree/release-1.0))
 - The normal git and GitHub configured shell environment for pushing to your
   karmada `origin` fork on GitHub and making a pull request against a
   configured remote `upstream` that tracks
-  `https://github.com/karmada-io/karmada.git`, including `GITHUB_USER`.
+  `https://github.com/zach593/karmada.git`, including `GITHUB_USER`.
 - Have GitHub CLI (`gh`) installed following [installation instructions](https://github.com/cli/cli#installation).
 - A github personal access token which has permissions "repo" and "read:org".
   Permissions are required for [gh auth login](https://cli.github.com/manual/gh_auth_login)
@@ -116,4 +116,4 @@ cherry pick.
 
 The community supports & patches releases need to be discussed.
 
-[cherry-pick-script]: https://github.com/karmada-io/karmada/blob/master/hack/cherry_pick_pull.sh
+[cherry-pick-script]: https://github.com/zach593/karmada/blob/master/hack/cherry_pick_pull.sh

@@ -22,7 +22,7 @@ import (
 	"k8s.io/klog/v2"
 	"k8s.io/kube-openapi/pkg/util/sets"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/options"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/options"
 )
 
 const (

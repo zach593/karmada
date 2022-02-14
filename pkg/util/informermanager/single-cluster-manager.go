@@ -10,7 +10,7 @@ import (
 	"k8s.io/client-go/dynamic/dynamicinformer"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/karmada-io/karmada/pkg/util"
+	"github.com/zach593/karmada/pkg/util"
 )
 
 // SingleClusterInformerManager manages dynamic shared informer for all resources, include Kubernetes resource and

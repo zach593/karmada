@@ -8,8 +8,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/kubernetes"
-	"github.com/karmada-io/karmada/pkg/version"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/kubernetes"
+	"github.com/zach593/karmada/pkg/version"
 )
 
 const (
@@ -58,7 +58,7 @@ func NewCmdInit(cmdOut io.Writer, parentCommand string) *cobra.Command {
 	flags.StringVarP(&opts.EtcdNodeSelectorLabels, "etcd-node-selector-labels", "", "", "etcd pod select the labels of the node. valid in hostPath mode ( e.g. --etcd-node-selector-labels karmada.io/etcd=true)")
 	flags.StringVarP(&opts.EtcdPersistentVolumeSize, "etcd-pvc-size", "", "5Gi", "etcd data path,valid in pvc mode.")
 	// karmada
-	crdURL := fmt.Sprintf("https://github.com/karmada-io/karmada/releases/download/%s/crds.tar.gz", version.Get().GitVersion)
+	crdURL := fmt.Sprintf("https://github.com/zach593/karmada/releases/download/%s/crds.tar.gz", version.Get().GitVersion)
 	flags.StringVar(&opts.CRDs, "crds", crdURL, "Karmada crds resource.(local file e.g. --crds /root/crds.tar.gz)")
 	flags.Int32VarP(&opts.KarmadaAPIServerNodePort, "port", "p", 32443, "Karmada apiserver service node port")
 	flags.StringVarP(&opts.KarmadaDataPath, "karmada-data", "d", "/etc/karmada", "karmada data path. kubeconfig cert and crds files")
@@ -85,7 +85,7 @@ func getInitExample(parentCommand string) string {
 ` + parentCommand + ` init 
 
 # Specify the URL to download CRD tarball.
-` + parentCommand + ` init --crds https://github.com/karmada-io/karmada/releases/download/v0.10.1/crds.tar.gz
+` + parentCommand + ` init --crds https://github.com/zach593/karmada/releases/download/v0.10.1/crds.tar.gz
 
 # Specify the local CRD tarball.
 ` + parentCommand + ` init --crds /root/crds.tar.gz

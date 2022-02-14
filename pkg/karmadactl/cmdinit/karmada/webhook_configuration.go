@@ -10,7 +10,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/klog/v2"
 
-	"github.com/karmada-io/karmada/pkg/karmadactl/cmdinit/utils"
+	"github.com/zach593/karmada/pkg/karmadactl/cmdinit/utils"
 )
 
 func mutatingConfig(caBundle string) string {

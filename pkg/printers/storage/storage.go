@@ -23,7 +23,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/karmada-io/karmada/pkg/printers"
+	"github.com/zach593/karmada/pkg/printers"
 )
 
 // TableConvertor struct - converts objects to metav1.Table using printers.TableGenerator

@@ -40,20 +40,20 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: ./kubectl-karmada-${{ matrix.goos }}-${{ matrix.goarch }}.tgz
-  update-krew-index:
-    needs: release-assests
-    name: Update krew-index
-    runs-on: ubuntu-18.04
-    steps:
-    - uses: actions/checkout@master
-    - name: Update new version in krew-index
-      uses: rajatjindal/krew-release-bot@v0.0.40
+#  update-krew-index:
+#    needs: release-assests
+#    name: Update krew-index
+#    runs-on: ubuntu-18.04
+#    steps:
+#    - uses: actions/checkout@master
+#    - name: Update new version in krew-index
+#      uses: rajatjindal/krew-release-bot@v0.0.40
   publish-image:
     name: publish images
     # prevent job running from forked repository, otherwise
     # 1. running on the forked repository would fail as missing necessary secret.
     # 2. running on the forked repository would use unnecessary GitHub Action time.
-    if: ${{ github.repository == 'karmada-io/karmada' }}
+#    if: ${{ github.repository == 'karmada-io/karmada' }}
     runs-on: ubuntu-18.04
     steps:
     - name: checkout code
